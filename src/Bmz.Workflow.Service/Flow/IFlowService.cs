@@ -1,13 +1,10 @@
-﻿using Bmz.Workflow.Service.Flow.Dto;
-using System;
+﻿using Bmz.Framework.Application.Services;
+using Bmz.Workflow.Service.Flow.Dto;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bmz.Workflow.Service.Flow
 {
-    public interface IFlowService
+    public interface IFlowService:IApplicationService
     {
         /// <summary>
         /// get instance node of a flow

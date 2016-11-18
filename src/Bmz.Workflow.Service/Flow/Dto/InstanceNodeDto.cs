@@ -8,5 +8,7 @@ namespace Bmz.Workflow.Service.Flow.Dto
 {
     public class InstanceNodeDto
     {
+        public long Id { get; set; }
+        public string Name { get; set; }
     }
 }
